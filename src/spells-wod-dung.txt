@@ -1,0 +1,183 @@
+; Type: Warlords of Draenor Dungeon
+
+; -------------------------------------
+; Zone: Grimrail Depot
+; -------------------------------------
+
+; Boss: Trash
+163966	Activating
+164192	50,000 Volts
+164168	Dash
+166675	Shrapnel Blast
+176032	Flametongue
+156301	Blackrock Mortar
+176127	Cannon Barrage
+176023	Getting Angry
+166335	Storm Shield
+166341	Thunder Zone
+166380	Reckless Slash
+166397	Arcane Blitz
+
+; Boss: Rocketspark and Borka
+162407	X21-01A Missile Barrage
+163947	Recovering
+162171	Better Position
+162500	VX18-B Target Eliminator
+161091	New Plan!
+161090	Mad Dash
+162617	Slam
+161092	Unmanaged Aggression
+
+; Boss: Nitrogg Thundertower
+163550	Blackrock Mortar
+160681	Suppressive Fire
+166570	Slag Blast
+160965	Blackrock Mortar Shells
+156357	Blackrock Shrapnel
+161073	Blackrock Grenade
+
+; Boss: Skylord Tovra
+161801	Thunderous Breath
+162058	Spinning Spear
+161588	Diffused Energy
+162066	Freezing Snare
+163447	Hunter's Mark
+
+
+; -------------------------------------
+; Zone: Iron Docks
+; -------------------------------------
+
+; Boss: Trash
+167233	Bladestorm
+164632	Burning Arrows
+172636	Slippery Grease
+172982	Shattering Strike
+172952	Throw Gatecrasher
+172963	Gatecrasher
+172943	Brutal Inspiration
+173135	Thundering Stomp
+173105	Whirling Chains
+167815	Rending Cleave
+173324	Jagged Caltrops
+173384	Trampling Stampede
+158337	Frenzy
+173514	Lava Blast
+173480	Lava Barrage
+
+; Boss: Fleshrender Nok'gar
+164426	Reckless Provocation
+;164632	Burning Arrows
+166923	Barbed Arrow Barrage
+164837	Savage Mauling
+164835	Bloodletting Howl
+164734	Shredding Swipes
+
+; Boss: Grimrail Enforcers
+163689	Sanguine Sphere
+163705	Abrupt Restoration
+163740	Tainted Blood
+163665	Flaming Slash
+165152	Lava Sweep
+163376	Malfunctioning Jumper Cables 9000-XL
+163390	Ogre Traps
+163379	Big Boom
+
+; Boss: Oshir
+162415	Time to Feed
+178124	Breakout
+161256	Primal Assault
+
+; Boss: Skulloc
+168227	Gronn Smash
+168929	Cannon Barrage
+168965	Berserker Leap
+168348	Rapid Fire
+
+
+; -------------------------------------
+; Zone: Shadowmoon Burial Grounds
+; -------------------------------------
+
+; Boss: Trash
+152818	Shadow Mend
+152819	Shadow Word: Frailty
+164907	Void Slash
+152964	Void Pulse
+394512	Void Eruptions
+398151	Sinister Focus
+398154	Cry of Anguish
+398150	Domination
+153268	Exhume the Crypts
+398206	Death Blast
+156718	Necrotic Burst
+153395	Body Slam
+
+; Boss: Sadana Bloodfury
+153153	Dark Communion
+153240	Daggerfall
+153224	Shadow Burn
+153094	Whispers of the Dark Star
+164974	Dark Eclipse
+
+; Boss: Nhallish
+153623	Planar Shift
+152801	Void Vortex
+152792	Void Blast
+153067	Void Devastation
+152979	Soul Shred
+
+; Boss: Bonemaw
+165578	Corpse Breath
+154175	Body Slam
+153804	Inhale
+
+; Boss: Ner'zhul
+154442	Malevolence
+154350	Omen of Death
+154469	Ritual of Bones
+
+
+; -------------------------------------
+; Zone: The Everbloom
+; -------------------------------------
+
+; Boss: Trash
+
+; Boss: Witherbark
+164275	Brittle Bark
+164438	Energize
+164357	Parched Gasp
+164294	Unchecked Growth
+-10098	Unchecked Growth
+
+; Boss: Ancient Protectors
+168082	Revitalize
+427498	Torrential Fury
+427459	Toxic Bloom
+427509	Terrestrial Fury
+427510	Noxious Charge
+427513	Noxious Discharge
+
+; Boss: Archmage Sol
+427899	Cinderbolt Storm
+428082	Glacial Fusion
+428139	Spatial Compression
+
+; Boss: Xeri'tac
+172643	Descend
+169376	Venomous Sting
+169382	Gaseous Volley
+169248	Consume
+-10502	Venom-Crazed Pale One
+169233	Inhale
+-10492	Toxic Spiderling
+173080	Fixate
+
+; Boss: Yalnu
+169179	Colossal Blow
+428823	Verdant Eruption
+169613	Genesis
+169929	Lumbering Swipe
+
+
