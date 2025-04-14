@@ -1,4 +1,9 @@
-# BigWigs - Voice+
+<p align="center">
+  <img src="https://wsrv.nl/?url=https://assets.alca.dev/voiceplus_logo.png" alt="Static-it" height="100" width="auto" />
+</p>
+
+#
+### BigWigs - Voice+
 
 **BigWigs - Voice+** is a modern, AI-powered voice plugin for [BigWigs](https://www.curseforge.com/wow/addons/big-wigs), providing crystal-clear boss ability callouts using realistic TTS voices from OpenAI.
 
@@ -21,7 +26,7 @@ Whether you're a mythic progression raider or just want a more modern audio expe
 
 ## 📥 Download
 
-- **CurseForge**: [https://www.curseforge.com/wow/addons/bigwigs-voiceplus](https://www.curseforge.com/wow/addons/bigwigs-voiceplus)
+- **CurseForge**: [https://www.curseforge.com/wow/addons/bigwigs-voice](https://www.curseforge.com/wow/addons/bigwigs-voice)
 - **Wago.io**: [https://wago.io/bigwigs-voiceplus](https://wago.io/bigwigs-voiceplus)
 
 ## 🙌 Credits
