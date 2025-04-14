@@ -6,7 +6,7 @@ No more robotic monotone or hard-to-hear audio in raids — Voice+ brings lifeli
 
 ## 🔊 Features
 
-- ✅ Powered by **OpenAI's TTS-1-HD model** using the “Sage” voice  
+- ✅ Powered by **OpenAI's TTS-1-HD model** using the Nova voice  
 - ✅ Professionally generated `.ogg` files for over **4,000+ boss abilities**
 - ✅ Fully compatible with **BigWigs** and **LittleWigs**
 - ✅ Simple plug-and-play install — no configuration needed
@@ -28,7 +28,6 @@ Whether you're a mythic progression raider or just want a more modern audio expe
 
 - Built with ❤️ using [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech)
 - Inspired by [BigWigs_Voice](https://github.com/BigWigsMods/BigWigs_Voice) — massive respect to the original creators!
-- Voice: **Sage** (OpenAI)
 
 ## 📜 License
 
