@@ -3,9 +3,9 @@ import openai
 import subprocess
 from pathlib import Path
 
-SRC_DIR = "src"        # Contains all spells
-SOUNDS_DIR = "sounds"  # Output folder for the generated OGG files
-TMP_DIR = "tmp_wav"    # Temporary folder for WAV files
+SRC_DIR = "Assets"        # Contains all spells
+SOUNDS_DIR = "Sounds"  # Output folder for the generated OGG files
+TMP_DIR = "Temp"    # Temporary folder for WAV files
 
 # Create necessary directories if they don't exist
 os.makedirs(SOUNDS_DIR, exist_ok=True)

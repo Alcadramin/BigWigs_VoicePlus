@@ -22,5 +22,27 @@ local function handler(event, module, key, sound, isOnMe)
     end
 end
 
-BigWigsLoader.RegisterMessage(addon, "BigWigs_Voice", handler)
+BigWigsLoader.RegisterMessage(addon, "BigWigs_VoicePlus", handler)
 BigWigsAPI.RegisterVoicePack("VoicePlus")
+
+--------------------------------------------------------------------------------
+-- Slash Command: /voiceplus play SPELL_NAME
+--
+
+SLASH_VOICEPLUS1 = "/voiceplus"
+SlashCmdList["VOICEPLUS"] = function(msg)
+    -- Parse the command and its arguments from the input text.
+    local command, spell = msg:match("^(%S+)%s*(.-)%s*$")
+    if command and command:lower() == "play" and spell and spell ~= "" then
+        local spellName = spell:upper()
+        local filePath = format("Interface\\AddOns\\BigWigs_VoicePlus\\sounds\\%s.ogg", spellName)
+        if FileExists(filePath) then
+            PlaySoundFile(filePath, "Master")
+            print("Playing voice for " .. spellName)
+        else
+            print("Voice for " .. spellName .. " not found.")
+        end
+    else
+        print("Usage: /voiceplus play SPELL_NAME")
+    end
+end

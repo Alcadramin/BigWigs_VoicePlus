@@ -26,8 +26,7 @@ Whether you're a mythic progression raider or just want a more modern audio expe
 
 ## 📥 Download
 
-- **CurseForge**: [https://www.curseforge.com/wow/addons/bigwigs-voice](https://www.curseforge.com/wow/addons/bigwigs-voice)
-- **Wago.io**: [https://wago.io/bigwigs-voiceplus](https://wago.io/bigwigs-voiceplus)
+- **CurseForge**: [https://www.curseforge.com/wow/addons/bigwigs](https://www.curseforge.com/wow/addons/bigwigs))
 
 ## 🙌 Credits
 
@@ -36,6 +35,5 @@ Whether you're a mythic progression raider or just want a more modern audio expe
 
 ## 📜 License
 
-MIT License.  
+AGPLv3 License.
 Use it, fork it, enhance it — just don’t make it sound like a potato again. 🥔
-
