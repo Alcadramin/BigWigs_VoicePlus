@@ -12,8 +12,8 @@ addon.SendMessage = BigWigsLoader.SendMessage
 -- Event Handlers
 --
 
-local path = "Interface\\AddOns\\BigWigs_VoicePlus\\sounds\\%s.ogg"
-local pathYou = "Interface\\AddOns\\BigWigs_VoicePlus\\sounds\\%sy.ogg"
+local path = "Interface\\AddOns\\BigWigs_VoicePlus\\Sounds\\%s.ogg"
+local pathYou = "Interface\\AddOns\\BigWigs_VoicePlus\\Sounds\\%sy.ogg"
 
 local function handler(event, module, key, sound, isOnMe)
     local success = PlaySoundFile(format(isOnMe and pathYou or path, tostring(key)), "Master")
@@ -23,26 +23,32 @@ local function handler(event, module, key, sound, isOnMe)
 end
 
 BigWigsLoader.RegisterMessage(addon, "BigWigs_VoicePlus", handler)
-BigWigsAPI.RegisterVoicePack("VoicePlus")
+BigWigsAPI.RegisterVoicePack("temp")
 
 --------------------------------------------------------------------------------
--- Slash Command: /voiceplus play SPELL_NAME
+-- Slash Command: /voiceplus SPELL_ID
 --
 
 SLASH_VOICEPLUS1 = "/voiceplus"
 SlashCmdList["VOICEPLUS"] = function(msg)
-    -- Parse the command and its arguments from the input text.
-    local command, spell = msg:match("^(%S+)%s*(.-)%s*$")
-    if command and command:lower() == "play" and spell and spell ~= "" then
-        local spellName = spell:upper()
-        local filePath = format("Interface\\AddOns\\BigWigs_VoicePlus\\sounds\\%s.ogg", spellName)
-        if FileExists(filePath) then
-            PlaySoundFile(filePath, "Master")
-            print("Playing voice for " .. spellName)
-        else
-            print("Voice for " .. spellName .. " not found.")
-        end
+    local trimmed = msg and msg:match("^%s*(.-)%s*$") or ""
+    if trimmed == "" then
+        DEFAULT_CHAT_FRAME:AddMessage("Usage: /voiceplus SPELL_ID")
+        return
+    end
+
+    local spell = trimmed:match("^(%S+)")
+    if not spell then
+        DEFAULT_CHAT_FRAME:AddMessage("Usage: /voiceplus SPELL_ID")
+        return
+    end
+
+    local filePath = format("Interface\\AddOns\\BigWigs_VoicePlus\\Sounds\\%s.ogg", spell)
+
+    local played = PlaySoundFile(filePath, "Master")
+    if played then
+        DEFAULT_CHAT_FRAME:AddMessage("VoicePlus: Playing voice for " .. spell)
     else
-        print("Usage: /voiceplus play SPELL_NAME")
+        DEFAULT_CHAT_FRAME:AddMessage("VoicePlus: Failed to play voice for " .. spell)
     end
 end

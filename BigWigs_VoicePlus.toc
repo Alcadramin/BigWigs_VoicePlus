@@ -3,13 +3,11 @@
 ## Notes: Plays crisp AI-generated voice alerts for boss abilities using BigWigs.
 ## Author: Alcadramin
 ## Version: 1.0
-
-## X-BigWigs-LoadOn-CoreEnabled: 1
 ## Dependencies: BigWigs
 ## LoadOnDemand: 1
 ## IconTexture: Interface\AddOns\BigWigs_VoicePlus\Icon\logo
 
-## X-Category: Raid
+## X-BigWigs-LoadOn-CoreEnabled: 1
 ## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.
 ## X-Curse-Project-ID: 1243086
 

@@ -1,0 +1,8 @@
+package-as: BigWigs_VoicePlus
+wowi-archive-previous: no
+
+ignore:
+  - .gitignore
+  - README.md
+  - LICENSE
+  - Assets
