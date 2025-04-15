@@ -1,17 +1,13 @@
 local name, addon = ...
 
---------------------------------------------------------------------------------
--- Locals
---
-
 local tostring = tostring
 local format = format
+
+
+----
+-- Register
+
 addon.SendMessage = BigWigsLoader.SendMessage
-
---------------------------------------------------------------------------------
--- Event Handlers
---
-
 local path = "Interface\\AddOns\\BigWigs_VoicePlus\\Sounds\\%s.ogg"
 local pathYou = "Interface\\AddOns\\BigWigs_VoicePlus\\Sounds\\%sy.ogg"
 
@@ -22,12 +18,12 @@ local function handler(event, module, key, sound, isOnMe)
     end
 end
 
-BigWigsLoader.RegisterMessage(addon, "BigWigs_VoicePlus", handler)
-BigWigsAPI.RegisterVoicePack("temp")
+-- This is hardcoded in BigWigs :/
+BigWigsLoader.RegisterMessage(addon, "BigWigs_Voice", handler)
+BigWigsAPI.RegisterVoicePack("VoicePlus")
 
---------------------------------------------------------------------------------
+----
 -- Slash Command: /voiceplus SPELL_ID
---
 
 SLASH_VOICEPLUS1 = "/voiceplus"
 SlashCmdList["VOICEPLUS"] = function(msg)
@@ -49,6 +45,6 @@ SlashCmdList["VOICEPLUS"] = function(msg)
     if played then
         DEFAULT_CHAT_FRAME:AddMessage("VoicePlus: Playing voice for " .. spell)
     else
-        DEFAULT_CHAT_FRAME:AddMessage("VoicePlus: Failed to play voice for " .. spell)
+        DEFAULT_CHAT_FRAME:AddMessage("VoicePlus: No voice to play for " .. spell)
     end
 end

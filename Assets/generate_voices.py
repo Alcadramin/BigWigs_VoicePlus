@@ -19,22 +19,22 @@ if openai.api_key is None:
 MODEL = "tts-1-hd"
 VOICE = "nova"
 
-def generate_voice(text, mp3_filepath):
+def generate_voice(text, source_filepath):
     """
-    Uses OpenAI TTS to generate an MP3 audio file from input text.
+    Uses OpenAI TTS to generate an audio file from input text.
     """
     print(f"Requesting audio for: {text}")
-    mp3_path = Path(mp3_filepath)
+    source_file = Path(source_filepath)
     try:
         with openai.audio.speech.with_streaming_response.create(
             model=MODEL,
             voice=VOICE,
             input=text
         ) as response:
-            response.stream_to_file(mp3_path)
+            response.stream_to_file(source_file)
     except Exception as ex:
         raise RuntimeError(f"OpenAI TTS API error: {ex}")
-    print(f"Saved temporary MP3: {mp3_path}")
+    print(f"Saved temporary: {source_file}")
 
 def convert_wav_to_ogg(wav_filepath, ogg_filepath):
     """
@@ -42,7 +42,7 @@ def convert_wav_to_ogg(wav_filepath, ogg_filepath):
     """
     try:
         subprocess.run(
-            ["ffmpeg", "-y", "-i", wav_filepath, "-c:a", "libvorbis", "-qscale:a", "5", ogg_filepath],
+            ["ffmpeg", "-y", "-i", wav_filepath, "-af", "volume=2.0", "-c:a", "libvorbis", "-qscale:a", "5", ogg_filepath],
             check=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE

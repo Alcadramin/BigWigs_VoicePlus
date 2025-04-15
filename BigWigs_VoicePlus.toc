@@ -2,7 +2,7 @@
 ## Title: BigWigs - Voice+
 ## Notes: Plays crisp AI-generated voice alerts for boss abilities using BigWigs.
 ## Author: Alcadramin
-## Version: 1.0
+## Version: @project-version@
 ## Dependencies: BigWigs
 ## LoadOnDemand: 1
 ## IconTexture: Interface\AddOns\BigWigs_VoicePlus\Icon\logo
