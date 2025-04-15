@@ -20,5 +20,5 @@ jobs:
       - name: Release
         uses: BigWigsMods/packager@v2
         env:
-          CURSE_API_KEY: ${{ secrets.CURSE_API_KEY }}
+          CF_API_KEY: ${{ secrets.CURSE_API_KEY }}
           GITHUB_OAUTH: ${{ secrets.GH_TOKEN }}
