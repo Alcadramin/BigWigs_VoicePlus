@@ -26,7 +26,8 @@ Whether you're a mythic progression raider or just want a more modern audio expe
 
 ## 📥 Download
 
-- **CurseForge**: [https://www.curseforge.com/wow/addons/bigwigs](https://www.curseforge.com/wow/addons/bigwigs))
+- **CurseForge**: [https://www.curseforge.com/wow/addons/bigwigs](https://www.curseforge.com/wow/addons/bigwigs)
+- **GitHub Releases**: [https://github.com/Alcadramin/BigWigs_VoicePlus/releases/](https://github.com/Alcadramin/BigWigs_VoicePlus/releases/)
 
 ## 🙌 Credits
 

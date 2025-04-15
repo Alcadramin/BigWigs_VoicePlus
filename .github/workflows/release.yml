@@ -2,8 +2,6 @@ name: Release AddOn
 
 on:
   push:
-    branches:
-      - master
     tags:
       - '*'
 
