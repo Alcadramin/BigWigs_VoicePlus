@@ -1,40 +1,45 @@
 <p align="center">
-  <img src="https://wsrv.nl/?url=https://assets.alca.dev/voiceplus_logo.png" alt="Static-it" height="100" width="auto" />
+  <img src="https://wsrv.nl/?url=https://assets.alca.dev/voiceplus_logo.png" alt="BigWigs Voice+" height="100" />
 </p>
 
 #
 ### BigWigs - Voice+
 
-**BigWigs - Voice+** is a modern, AI-powered voice plugin for [BigWigs](https://www.curseforge.com/wow/addons/big-wigs), providing crystal-clear boss ability callouts using realistic TTS voices from OpenAI.
+**Voice+** is a high-quality voice pack for [BigWigs](https://www.curseforge.com/wow/addons/big-wigs), providing natural boss ability callouts using advanced AI-generated speech.
 
-No more robotic monotone or hard-to-hear audio in raids — Voice+ brings lifelike voice alerts that cut through the chaos and keep you focused on mechanics.
+No more robotic audio or silence — Voice+ delivers clear, responsive alerts that cut through combat and improve raid awareness.
 
-## 🔊 Features
+## Features
 
-- ✅ Powered by **OpenAI's TTS-1-HD model** using the Nova voice  
-- ✅ Professionally generated `.ogg` files for over **4,000+ boss abilities**
-- ✅ Fully compatible with **BigWigs** and **LittleWigs**
-- ✅ Simple plug-and-play install — no configuration needed
-- ✅ Lightweight & optimized for performance
+- Powered by **OpenAI’s neural TTS**
+- Over **5,500 professionally generated `.ogg` audio files**
+- Seamless integration with **BigWigs** and **LittleWigs**
+- Optimized for performance with minimal footprint
 
-## 💡 Why Voice+?
+## Installation & Usage
 
-> Tired of missing cues? Hate the robotic voice from default TTS?  
-> **Voice+ was built for raiders who want clarity, immersion, and next-level awareness.**
+Voice+ is fully plug-and-play.
 
-Whether you're a mythic progression raider or just want a more modern audio experience — this is the voice plugin you've been waiting for.
+- Once installed, it works automatically with BigWigs.
+- You can choose your preferred voice pack by opening the settings via `/voiceplus`, which takes you to **Settings > AddOns > Voice+**.
+- Voice alerts are played through the **Dialog** audio channel — adjust the volume in **System > Sound > Dialog**.
 
-## 📥 Download
+### Voice Packs
 
-- **CurseForge**: [https://www.curseforge.com/wow/addons/bigwigs](https://www.curseforge.com/wow/addons/bigwigs)
-- **GitHub Releases**: [https://github.com/Alcadramin/BigWigs_VoicePlus/releases/](https://github.com/Alcadramin/BigWigs_VoicePlus/releases/)
+- **Nova**: Direct and focused — designed to shout ability names clearly in high-intensity moments.
+- **Sage**: Calm and narrative — more natural phrasing, ideal if you prefer immersion or a softer tone.
 
-## 🙌 Credits
+## Why Voice+?
 
-- Built with ❤️ using [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech)
-- Inspired by [BigWigs_Voice](https://github.com/BigWigsMods/BigWigs_Voice) — massive respect to the original creators!
+Clear audio cues make the difference between reacting late and reacting perfectly.
+Voice+ was built for players who want reliable, lifelike callouts that match the pace and intensity of modern encounters.
 
-## 📜 License
+## Download
 
-AGPLv3 License.
-Use it, fork it, enhance it — just don’t make it sound like a potato again. 🥔
+- **CurseForge**: [https://www.curseforge.com/wow/addons/bigwigs-voice](https://www.curseforge.com/wow/addons/bigwigs-voice)
+- **GitHub Releases**: [https://github.com/Alcadramin/BigWigs_VoicePlus/releases](https://github.com/Alcadramin/BigWigs_VoicePlus/releases)
+
+## License
+
+Licensed under **AGPLv3**.  
+You’re free to use, modify, and redistribute — just don’t lower the quality.
