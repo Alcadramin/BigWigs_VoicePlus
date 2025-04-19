@@ -19,6 +19,15 @@ function VoicePlus:SetVoicePack(info, value)
     StaticPopup_Show("VOICEPLUS_RELOAD")
 end
 
+function VoicePlus:GetSoundChannel()
+    return self.db.soundChannel or "Master"
+end
+
+function VoicePlus:SetSoundChannel(info, value)
+    self.db.soundChannel = value
+    StaticPopup_Show("VOICEPLUS_RELOAD")
+end
+
 function VoicePlus:IncrementAndFetchOptionOrder()
     self.optionOrder = self.optionOrder + 1
     return self.optionOrder
@@ -65,6 +74,29 @@ function VoicePlus:CreateOptionsPanel()
                 set     = "SetVoicePack",
                 width   = "normal",
             },
+            spacerBetweenSelectors = {
+                order = self:IncrementAndFetchOptionOrder(),
+                type  = "description",
+                name  = " ",
+                width = "full",
+            },
+            soundChannel = {
+                order   = self:IncrementAndFetchOptionOrder(),
+                type    = "select",
+                name    = "Sound Channel",
+                desc    = "Choose which sound channel to play the voice alerts through.",
+                values  = {
+                    Master = "Master",
+                    Dialog = "Dialog",
+                    SFX = "Sound Effects",
+                    Ambience = "Ambience",
+                    Music = "Music",
+                },
+                sorting = { "Master", "Dialog", "SFX", "Ambience", "Music" },
+                get     = "GetSoundChannel",
+                set     = "SetSoundChannel",
+                width   = "normal",
+            },
             spacer2 = {
                 order = self:IncrementAndFetchOptionOrder(),
                 type  = "description",
@@ -99,7 +131,7 @@ function VoicePlus:CreateOptionsPanel()
             howTo = {
                 order    = self:IncrementAndFetchOptionOrder(),
                 type     = "description",
-                name     = "\nVoice alerts are played through the Dialog audio channel — adjust the volume in System > Sound > Dialog.",
+                name     = "\nVoice alerts are played through the audio channel selected above — adjust the volume in Game Settings > System > Audio",
                 fontSize = "small",
                 width    = "full",
             },
@@ -129,7 +161,7 @@ function VoicePlus:OnInitialize()
     self.db = db
 
     StaticPopupDialogs["VOICEPLUS_RELOAD"] = {
-        text         = "Voice pack changed.\nReload the UI now?",
+        text         = "Voice+ config changed.\nReload the UI now?",
         button1      = RELOADUI,
         button2      = CANCEL,
         OnAccept     = ReloadUI,
