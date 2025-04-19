@@ -21,6 +21,17 @@
         "SettingsPanel",
         "ReloadUI",
         "BigWigsLoader",
-        "BigWigsAPI"
+        "BigWigsAPI",
+        "StaticPopup_Show",
+        "StaticPopupDialogs",
+        "RELOADUI",
+        "CANCEL",
+        "ACCEPT",
+        "CLOSE",
+        "FONT_COLOR_CODE_CLOSE",
+        "SetDesaturation",
+        "ColorPickerFrame",
+        "OKAY",
+        "NOT_BOUND"
     ]
 }

@@ -11,6 +11,17 @@
 ## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.
 ## X-Curse-Project-ID: 1243086
 
+# Libraries
+Libraries/LibStub/LibStub.lua
+Libraries/CallbackHandler/CallbackHandler-1.0.xml
+Libraries/Ace3/AceAddon/AceAddon-3.0.xml
+Libraries/Ace3/AceGUI/AceGUI-3.0.xml
+Libraries/Ace3/AceConfigRegistry/AceConfigRegistry-3.0.xml
+Libraries/Ace3/AceConfigDialog/AceConfigDialog-3.0.xml
+Libraries/Ace3/AceDB/AceDB-3.0.xml
+Libraries/LibSharedMedia/lib.xml
+Libraries/Ace3/AceGUI-SharedMediaWidgets/widget.xml
+
 Core/Core.lua
 Core/Options.lua
 Core/Slash.lua
