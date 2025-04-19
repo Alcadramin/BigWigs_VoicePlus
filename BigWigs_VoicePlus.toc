@@ -4,11 +4,13 @@
 ## Author: Alcadramin
 ## Version: @project-version@
 ## Dependencies: BigWigs
-## LoadOnDemand: 1
 ## IconTexture: Interface\AddOns\BigWigs_VoicePlus\Icon\logo
+## SavedVariables: BigWigs_VoicePlusSV
 
 ## X-BigWigs-LoadOn-CoreEnabled: 1
 ## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.
 ## X-Curse-Project-ID: 1243086
 
-Core.lua
+Core/Core.lua
+Core/Options.lua
+Core/Slash.lua
