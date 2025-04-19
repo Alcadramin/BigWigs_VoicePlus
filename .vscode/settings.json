@@ -17,6 +17,10 @@
     "Lua.diagnostics.globals": [
         "SlashCmdList",
         "DEFAULT_CHAT_FRAME",
-        "Settings"
+        "Settings",
+        "SettingsPanel",
+        "ReloadUI",
+        "BigWigsLoader",
+        "BigWigsAPI"
     ]
 }
