@@ -1,6 +1,6 @@
 ## Interface: 110105, 110007, 110100
 ## Title: BigWigs - Voice+
-## Notes: Plays crisp AI-generated voice alerts for boss abilities using BigWigs.
+## Notes: Crisp and clear AI-powered voice alerts for boss abilities in BigWigs
 ## Author: Alcadramin
 ## Version: @project-version@
 ## Dependencies: BigWigs
