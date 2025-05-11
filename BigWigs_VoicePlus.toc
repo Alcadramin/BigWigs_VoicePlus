@@ -1,4 +1,4 @@
-## Interface: 110105, 110007, 110100
+## Interface: 110107, 110105, 110100
 ## Title: BigWigs - Voice+
 ## Notes: Crisp and clear AI-powered voice alerts for boss abilities in BigWigs
 ## Author: Alcadramin
